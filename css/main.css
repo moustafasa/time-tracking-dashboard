@@ -198,3 +198,22 @@ body {
   color: var(--Pale-Blue);
   text-transform: capitalize;
 }
+
+.attribution {
+  background-color: var(--Dark-blue);
+  margin-top: 100px;
+  padding: 30px;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.attribution a {
+  text-decoration: none;
+  color: rgb(17, 176, 204);
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.attribution a:hover {
+  color: rgb(9, 95, 110);
+}
