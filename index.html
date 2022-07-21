@@ -23,17 +23,6 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/main.css" />
     <title>Frontend Mentor | Time tracking dashboard</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="container">
@@ -47,9 +36,9 @@
           </p>
         </div>
         <ul class="tabs">
-          <li>Daily</li>
-          <li class="active">Weekly</li>
-          <li>Monthly</li>
+          <li data-value="daily">Daily</li>
+          <li class="active" data-value="weekly">Weekly</li>
+          <li data-value="monthly">Monthly</li>
         </ul>
       </div>
       <div class="task work">
@@ -129,5 +118,6 @@
       >
       Coded by <a href="#">moustafa saad</a>
     </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
