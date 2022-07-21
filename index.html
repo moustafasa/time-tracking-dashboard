@@ -11,7 +11,17 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <!-- normalise -->
+    <link rel="stylesheet" href="css/normalise.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
     <title>Frontend Mentor | Time tracking dashboard</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,24 +36,90 @@
     </style>
   </head>
   <body>
-    <div class="main">
-      <div class="profile">Report for Jeremy Robson</div>
-      <ul class="tabs">
-        <li>Daily</li>
-        <li>Weekly</li>
-        <li>Monthly</li>
-      </ul>
-    </div>
-    <div class="task">
-      <div class="img"></div>
-
-      <div class="content">
-        <div class="head">
-          <h2>Work</h2>
-          <i>...</i>
+    <div class="container">
+      <div class="main">
+        <div class="profile">
+          <div class="prof-img">
+            <img src="./images/image-jeremy.png" alt="" />
+          </div>
+          <p class="report-for">
+            <span class="title">Report for</span> Jeremy Robson
+          </p>
         </div>
-        <div class="now">32hrs</div>
-        <div class="previous">last week - 36hrs</div>
+        <ul class="tabs">
+          <li>Daily</li>
+          <li class="active">Weekly</li>
+          <li>Monthly</li>
+        </ul>
+      </div>
+      <div class="task work">
+        <div class="img"></div>
+
+        <div class="content">
+          <div class="head">
+            <h2>Work</h2>
+            <i>...</i>
+          </div>
+          <div class="now">32hrs</div>
+          <div class="previous">last week - 36hrs</div>
+        </div>
+      </div>
+      <div class="task play">
+        <div class="img"></div>
+
+        <div class="content">
+          <div class="head">
+            <h2>play</h2>
+            <i>...</i>
+          </div>
+          <div class="now">32hrs</div>
+          <div class="previous">last week - 36hrs</div>
+        </div>
+      </div>
+      <div class="task study">
+        <div class="img"></div>
+
+        <div class="content">
+          <div class="head">
+            <h2>study</h2>
+            <i>...</i>
+          </div>
+          <div class="now">32hrs</div>
+          <div class="previous">last week - 36hrs</div>
+        </div>
+      </div>
+      <div class="task exercise">
+        <div class="img"></div>
+        <div class="content">
+          <div class="head">
+            <h2>exercise</h2>
+            <i>...</i>
+          </div>
+          <div class="now">32hrs</div>
+          <div class="previous">last week - 36hrs</div>
+        </div>
+      </div>
+      <div class="task social">
+        <div class="img"></div>
+        <div class="content">
+          <div class="head">
+            <h2>exercise</h2>
+            <i>...</i>
+          </div>
+          <div class="now">32hrs</div>
+          <div class="previous">last week - 36hrs</div>
+        </div>
+      </div>
+      <div class="task self-care">
+        <div class="img"></div>
+        <div class="content">
+          <div class="head">
+            <h2>exercise</h2>
+            <i>...</i>
+          </div>
+          <div class="now">32hrs</div>
+          <div class="previous">last week - 36hrs</div>
+        </div>
       </div>
     </div>
     <div class="attribution">
